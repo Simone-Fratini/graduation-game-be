@@ -14,6 +14,7 @@ class Guest extends Model
         'full_name',
         'email',
         'task_id',
+        'changed_task',
     ];
 
     // Relazione: un guest appartiene a una task
